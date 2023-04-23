@@ -1,0 +1,111 @@
+
+.navbar-nav .nav-link{
+	color:whitesmoke;
+}
+
+
+.navbar-nav .nav-link:hover{
+	color: #ff0000;
+}
+
+
+}
+.rate {
+    float: left;
+    height: 36px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:20px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+.card-title {
+	text-align: start;
+	margin-left: 4%;
+	color: whitesmoke;
+
+}
+.card-text{
+	text-align: start;
+	margin-left: 4%;
+	color: whitesmoke;
+	margin-top:5%;
+}
+/*resume*/
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: whitesmoke;
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #ff0000;
+  position: relative;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #ff0000;
+}
+.card-body{
+	background-color: #0d0d0d;
+	
+	border-radius: 20px;
+
+}
+.card {
+
+border-width: 0px;
+background-color: #191919;
+}
+.card-subtitle {
+	margin-left: 4%;
+
+}
+.text-center{
+	color: whitesmoke;
+}
+
+
+.carousel-control-prev{
+	position: absolute;
+}
+
